@@ -1,0 +1,67 @@
+html{
+  background-color:beige;
+}
+#flex-container{
+  display:flex;
+  flex-flow:column wrap;
+}
+#top{
+  background-color: darkblue;
+  color: chartreuse;
+  margin:auto;
+  text-align:center;
+  align-items:center;
+  width:20%;
+  border-radius:25px;
+  font-size: 30px;
+
+}
+.intro{
+  background-color: red;
+  color: yellow;
+  margin:auto;
+  align-items:center;
+  text-align:center;
+  width:60%;
+  border-radius:25px;
+}
+#pic{
+  display:block;
+  columns:auto;
+  margin-left:auto;
+  margin-right:auto;
+  height: 450px;
+  width: 20%;
+
+}
+.goals{
+  columns:auto;
+  margin:auto;
+  width:100%;
+  length:60%
+}
+.work_experiences{
+  display:table;
+  color: blue;
+  font-size:20px;
+  border-style:groove;
+  border-color:black;
+  font-style:italic;
+  font-weight: 200;
+  font-family:sans-serif;
+  background-color: silver;
+  border-radius:25px;
+  width:60%;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  margin:auto;
+  height:auto;
+  column-width:60%
+  -webkit-column-gap: 50px;
+  -moz-column-gap: 50px;
+  column-gap: 50px;
+  flex: 1;
+
+
+}
