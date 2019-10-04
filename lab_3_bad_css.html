@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sample HTML Demonstration Page</title>
+  <style>
+
+  .container {
+    margin: 0;
+  }
+
+  .newsline {
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  .wrapper {
+    width: 480px;
+    height: 960px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin:auto;
+    margin-bottom: 10px;
+    background: grey;
+
+  }
+
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-weight: bold;
+    margin:auto;
+    text-align: center;
+    width:100%;
+    height: 20px;
+  }
+
+  .head a,
+  .head {
+    margin: auto;
+    padding: 0;
+    height:40%;
+    margin-top: 20px;
+  }
+
+  .second_container {
+    display: flex;
+    background: pink;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: -800px;
+    justify-content: center;
+    vertical-align: middle;
+    line-height:90px;
+
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .textbox {
+    height: 100px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .red {
+    background: red;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: -925px;
+    color: red;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+  }
+  .red2 {
+    background: red;
+    cursor: pointer;
+    margin-top:-925px;
+    color: red;
+    width: 200px;
+    height: 100px;
+  }
+
+  .second {
+    background: lightblue;
+    margin: auto;
+    margin-top: -400px;
+
+  }
+
+  </style>
+</head>
+
+<body>
+  <div class = "doc">
+  <div class="wrapper">
+    <div class="head" id="start">
+      <div class="newsline">
+      Sample Header
+    </div>
+    <a href="#">anchor tag to nowhere</a>
+    </div>
+    <div class="second_container">
+      <div class="interior">
+      hello
+    </div>
+    </div>
+    <div class="container">
+      <div class = "red">
+        click me I'm great
+      </div>
+      <div class = "red2">
+        test
+      </div>
+      </div>
+      <div class="second textbox">
+        <p>
+          World #2
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
